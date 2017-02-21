@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="sound"
+        android:title="@string/rSound"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="vibre"
+        android:title="@string/rVibre"
+        android:defaultValue="true" />
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="level"
+        android:title="@string/rLevel"
+        android:defaultValue="0"
+        android:entries="@array/ArrayLevels"
+        android:entryValues="@array/ArrayLevelsRef"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

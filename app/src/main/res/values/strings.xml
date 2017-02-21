@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dark Rebellion</string>
+    <string name="rSettingsActivityName">Options</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_inicial">Juego Jedis</string>
+    <string name="rStart">Start</string>
+    <string name="rScore">Score!</string>
+    <string name="rOptions">Options</string>
+    <string name="rSound">Sound activated</string>
+    <string name="rVibre">Vibration activated</string>
+    <string name="rLevel">Level</string>
+    <string name="title_activity_scores">Scores</string>
+</resources>
